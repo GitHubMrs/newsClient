@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/fl_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+    </FrameLayout>
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:background="@mipmap/bottom_tab_bg"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
+
+        <RadioButton
+            android:id="@+id/home_pager"
+            style="@style/radioButtonStyle"
+            android:drawableTop="@drawable/selector_home"
+            android:text="首页" />
+
+        <RadioButton
+            android:id="@+id/news_pager"
+
+            style="@style/radioButtonStyle"
+            android:drawableTop="@drawable/selector_news"
+            android:text="新闻" />
+
+        <RadioButton
+            android:id="@+id/vedio_pager"
+
+            style="@style/radioButtonStyle"
+
+            android:drawableTop="@drawable/selector_news"
+            android:text="视频" />
+
+
+
+        <RadioButton
+            android:id="@+id/gov_pager"
+
+            style="@style/radioButtonStyle"
+
+            android:drawableTop="@drawable/selector_gov"
+            android:text="政务" />
+
+
+        <RadioButton
+            android:id="@+id/setting_pager"
+            style="@style/radioButtonStyle"
+
+            android:drawableTop="@drawable/selector_setting"
+            android:text="设置" />
+
+    </RadioGroup>
+
+</LinearLayout>
